@@ -1,0 +1,32 @@
+app:
+  jwt:
+    expired-at: 750
+    secret-word: barchynai
+cloud:
+  aws:
+    bucket:
+      access-key: AKIAVSHPQHPF2QZNIJAT
+      default:
+        avatar: https://socialmediaapi.s3.eu-central-1.amazonaws.com/nature.jpeg
+      name: socialmediaapi
+      path: https://socialmediaapi.s3.eu-central-1.amazonaws.com/
+      region: eu-central-1
+      secret-key: PpbuMaU8TkTvFQiYAI+w0H5NrMZx+o0hybvyB7GS
+server:
+  port: 5050
+spring:
+  datasource:
+    password: barchynai
+    url: jdbc:postgresql://localhost:5432/social_media
+    username: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        show-sql: true
+springdoc:
+  swagger-ui:
+    path: /swagger
