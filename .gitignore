@@ -36,3 +36,4 @@ build/
 ### Applications ###
 src/main/resources/application.yml
 src/main/resources/application-bar.yml
+src/main/resources/application-bar1.yml
