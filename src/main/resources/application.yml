@@ -1,26 +1,26 @@
 app:
     jwt:
-        expired-at: 750
+        expired-at:
         secret-word:
 cloud:
     aws:
         bucket:
             access-key:
             default:
-                avatar: https://socialmediaapi.s3.eu-central-1.amazonaws.com/nature.jpeg
-            name: socialmediaapi
-            path: https://socialmediaapi.s3.eu-central-1.amazonaws.com/
-            region: eu-central-1
+                avatar:
+            name:
+            path:
+            region:
             secret-key:
 server:
     port: 5050
 spring:
     datasource:
         password:
-        url: jdbc:postgresql://localhost:5432/social_media
+        url:
         username:
     jpa:
-        database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+        database-platform:
         hibernate:
             ddl-auto: update
         properties:
